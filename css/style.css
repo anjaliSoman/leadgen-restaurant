@@ -1,0 +1,56 @@
+/* Author : Anjali Soman
+Date :  16-02-2023*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-row {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("../images/background/agency-slider-04.jpg");
+    background-size: cover;
+}
+.icon-width {
+    width: 24px;
+    stroke: #fff;
+    background-color: black;
+}
+.fourth-row {
+    background-image: url("../images/background/restaurant-menu-bg.jpg");
+    background-size: cover;
+}
+.book-a-table {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/background/hero-bg9.jpg");
+    background-size: cover;
+    height: 70vh;
+}
+.book-a-table-2 {
+    background-image: url("../images/background/fitness-about-bg.jpg");
+    background-size: cover;
+    min-height: 70vh;
+}
+.bg-pink {
+    background-color: #f4eeef;
+}
+.icon-stroke {
+    width: 24px;
+    color: #a74d0482;
+}
+.book-a-table-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../images/background/hero-bg3.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.text-brown {
+    color: #510d0d;
+}
+@media screen and (max-width: 576px) {
+    .fourth-row {
+        background-image: none;
+    }
+    .book-a-table-2 {
+        background-image: none;
+    }
+}
