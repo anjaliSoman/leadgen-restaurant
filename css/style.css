@@ -5,6 +5,11 @@ Date :  16-02-2023*/
     margin: 0;
     box-sizing: border-box;
 }
+.icon_round {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+}
 .first-row {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url("../images/background/agency-slider-04.jpg");
